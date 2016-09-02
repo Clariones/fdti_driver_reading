@@ -1,0 +1,561 @@
+# depslib dependency file v1.0
+1472734015 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/common/CommonSettingArg.cpp
+	"common/CommonSettingArg.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/Acknowledgment.cpp
+	"control/Acknowledgment.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/AcknowledgmentEvent.cpp
+	"control/AcknowledgmentEvent.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/Checksum.cpp
+	"control/Checksum.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/Codec.cpp
+	"control/Codec.h"
+	"control/Checksum.h"
+	"control/CoreController.h"
+	"control/MessageReceivedEvent.h"
+	"control/AcknowledgmentEvent.h"
+	"control/CoreAlarmCentralUnitMessage.h"
+	"control/CoreAlarmCommandMessage.h"
+	"control/CoreAlarmCommandPanelMessage.h"
+	"control/CoreAlarmEventMessage.h"
+	"control/CoreAlarmLogViewMessage.h"
+	"control/CoreAlarmPeripheralDeletionMessage.h"
+	"control/CoreAlarmPeripheralLabelMessage.h"
+	"control/CoreAlarmTimeMessage.h"
+	"control/CoreBasicCommandMessage.h"
+	"control/CoreCompositeMeterReadingMessage.h"
+	"control/CoreCurrentTransformerDefinitionMessage.h"
+	"control/CoreDataTransferMessage.h"
+	"control/CoreDataTransferNotificationMessage.h"
+	"control/CoreDetectionMessage.h"
+	"control/CoreDistressMessage.h"
+	"control/CoreEnrollmentMessage.h"
+	"control/CoreFunctioningModeMessage.h"
+	"control/CoreHeatingLevelMessage.h"
+	"control/CoreMeterReadingMessage.h"
+	"control/CoreScenarioCommandMessage.h"
+	"control/CoreSirenMessage.h"
+	"control/CoreTelephoneTransmitterMessage.h"
+	"control/CoreTemperatureMessage.h"
+	"control/CoreVariationCommandMessage.h"
+	"control/CoreVariationMessage.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreAlarmCentralUnitMessage.cpp
+	"control/CoreAlarmCentralUnitMessage.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreAlarmCommandMessage.cpp
+	"control/CoreAlarmCommandMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreAlarmCommandPanelMessage.cpp
+	"control/CoreAlarmCommandPanelMessage.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreAlarmEventMessage.cpp
+	"control/CoreAlarmEventMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreAlarmLogViewMessage.cpp
+	"control/CoreAlarmLogViewMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreAlarmMessage.cpp
+	"control/CoreAlarmMessage.h"
+
+1472735270 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreAlarmPeripheralDeletionMessage.cpp
+	<iostream>
+	<cstring>
+	"control/CoreAlarmPeripheralDeletionMessage.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreAlarmPeripheralLabelMessage.cpp
+	"control/CoreAlarmPeripheralLabelMessage.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreAlarmTimeMessage.cpp
+	"control/CoreAlarmTimeMessage.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreBasicCommandMessage.cpp
+	"control/CoreBasicCommandMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreCommonSettingRequest.cpp
+	"control/CoreCommonSettingRequest.h"
+	"control/CoreResponse.h"
+	"common/CommonSettingArg.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreCompositeMeterReadingMessage.cpp
+	"control/CoreCompositeMeterReadingMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreController.cpp
+	"control/CoreController.h"
+	"control/Checksum.h"
+	"control/PrintableHex.h"
+	"control/DirectCodec.h"
+	"control/MeshCodec.h"
+	<errno.h>
+	"control/CoreMessage.h"
+	"control/CoreAlarmCentralUnitMessage.h"
+	"control/CoreAlarmCommandMessage.h"
+	"control/CoreAlarmCommandPanelMessage.h"
+	"control/CoreAlarmEventMessage.h"
+	"control/CoreAlarmLogViewMessage.h"
+	"control/CoreAlarmPeripheralDeletionMessage.h"
+	"control/CoreAlarmPeripheralLabelMessage.h"
+	"control/CoreAlarmTimeMessage.h"
+	"control/CoreBasicCommandMessage.h"
+	"control/CoreCompositeMeterReadingMessage.h"
+	"control/CoreCurrentTransformerDefinitionMessage.h"
+	"control/CoreDataTransferMessage.h"
+	"control/CoreDataTransferNotificationMessage.h"
+	"control/CoreDetectionMessage.h"
+	"control/CoreDistressMessage.h"
+	"control/CoreEnrollmentMessage.h"
+	"control/CoreFunctioningModeMessage.h"
+	"control/CoreHeatingLevelMessage.h"
+	"control/CoreMeterReadingMessage.h"
+	"control/CoreScenarioCommandMessage.h"
+	"control/CoreSirenMessage.h"
+	"control/CoreTelephoneTransmitterMessage.h"
+	"control/CoreTemperatureMessage.h"
+	"control/CoreVariationCommandMessage.h"
+	"control/CoreVariationMessage.h"
+	"control/CoreRequest.h"
+	"control/CoreCommonSettingRequest.h"
+	"control/CoreCurrentConsumptionRequest.h"
+	"control/CoreDiagnosticOverheatingRequest.h"
+	"control/CoreEnergyConsumptionRequest.h"
+	"control/CoreGetOutdoorTemperatureRequest.h"
+	"control/CoreGetRoomTemperatureRequest.h"
+	"control/CoreLightCommandRequest.h"
+	"control/CoreLightGetColorRequest.h"
+	"control/CoreLightInfoRequest.h"
+	"control/CoreLightSetColorRequest.h"
+	"control/CoreLightSettingRequest.h"
+	"control/CoreLightStatusRequest.h"
+	"control/CorePowerConsumptionRequest.h"
+	"control/CoreRollerShutterCommandRequest.h"
+	"control/CoreRollerShutterInfoRequest.h"
+	"control/CoreRollerShutterSettingRequest.h"
+	"control/CoreRollerShutterStatusRequest.h"
+	"control/CoreSetOutdoorTemperatureRequest.h"
+	"control/CoreSetRoomTemperatureRequest.h"
+	"control/CoreTemperatureInfoRequest.h"
+	"control/CoreThermicAntiFrostAdjustmentRequest.h"
+	"control/CoreThermicGetDelayTimeRequest.h"
+	"control/CoreThermicInfoRequest.h"
+	"control/CoreThermicRegulationCommandRequest.h"
+	"control/CoreThermicRegulationStatusRequest.h"
+	"control/CoreThermicSetDelayTimeRequest.h"
+	"control/CoreThermicSettingRequest.h"
+	"control/CoreThermicSystemCommandRequest.h"
+	"control/CoreThermicSystemStatusRequest.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreCurrentConsumptionRequest.cpp
+	"control/CoreCurrentConsumptionRequest.h"
+	"control/CoreCurrentConsumptionResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreCurrentConsumptionResponse.cpp
+	"control/CoreCurrentConsumptionResponse.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreCurrentTransformerDefinitionMessage.cpp
+	"control/CoreCurrentTransformerDefinitionMessage.h"
+
+1472735239 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreDataTransferMessage.cpp
+	"control/CoreDataTransferMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreDataTransferNotificationMessage.cpp
+	"control/CoreDataTransferNotificationMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreDetectionMessage.cpp
+	"control/CoreDetectionMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreDiagnosticOverheatingRequest.cpp
+	"control/CoreDiagnosticOverheatingRequest.h"
+	"control/CoreDiagnosticOverheatingResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreDiagnosticOverheatingResponse.cpp
+	"control/CoreDiagnosticOverheatingResponse.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreDistressMessage.cpp
+	"control/CoreDistressMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreDomesticMessage.cpp
+	"control/CoreDomesticMessage.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreEnergyConsumptionRequest.cpp
+	"control/CoreEnergyConsumptionRequest.h"
+	"control/CoreEnergyConsumptionResponse.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreEnergyConsumptionResponse.cpp
+	"control/CoreEnergyConsumptionResponse.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreEnrollmentMessage.cpp
+	"control/CoreEnrollmentMessage.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreFunctioningModeMessage.cpp
+	"control/CoreFunctioningModeMessage.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreGetOutdoorTemperatureRequest.cpp
+	"control/CoreGetOutdoorTemperatureRequest.h"
+	"control/CoreTemperatureResponse.h"
+	"sensor/Temperature.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreGetRoomTemperatureRequest.cpp
+	"control/CoreGetRoomTemperatureRequest.h"
+	"control/CoreTemperatureResponse.h"
+	"sensor/Temperature.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreHeatingLevelMessage.cpp
+	"control/CoreHeatingLevelMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreLightColorResponse.cpp
+	"control/CoreLightColorResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreLightCommandRequest.cpp
+	"control/CoreLightCommandRequest.h"
+	"control/CoreResponse.h"
+	"light/LightCommandArg.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreLightGetColorRequest.cpp
+	"control/CoreLightGetColorRequest.h"
+	"control/CoreLightColorResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreLightInfoRequest.cpp
+	"control/CoreLightInfoRequest.h"
+	"control/CoreLightInfoResponse.h"
+	"light/LightActuatorType.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreLightInfoResponse.cpp
+	"control/CoreLightInfoResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreLightSetColorRequest.cpp
+	"control/CoreLightSetColorRequest.h"
+	"control/CoreResponse.h"
+	"light/LightColorArg.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreLightSettingRequest.cpp
+	"control/CoreLightSettingRequest.h"
+	"control/CoreResponse.h"
+	"light/LightSettingArg.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreLightStatusRequest.cpp
+	"control/CoreLightStatusRequest.h"
+	"control/CoreLightStatusResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreLightStatusResponse.cpp
+	"control/CoreLightStatusResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreMessage.cpp
+	"control/CoreMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreMeterReadingMessage.cpp
+	"control/CoreMeterReadingMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreMpRequest.cpp
+	"control/CoreMpRequest.h"
+	"control/CoreResponse.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreNetwork.cpp
+	"control/CoreNetwork.h"
+	"control/CoreController.h"
+	"control/NetworkCodec.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CorePowerConsumptionRequest.cpp
+	"control/CorePowerConsumptionRequest.h"
+	"control/CorePowerConsumptionResponse.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CorePowerConsumptionResponse.cpp
+	"control/CorePowerConsumptionResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreRequest.cpp
+	"control/CoreRequest.h"
+	"control/CoreResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreResponse.cpp
+	"control/CoreResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreRmRequest.cpp
+	"control/CoreRmRequest.h"
+	"control/CoreResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreRollerShutterCommandRequest.cpp
+	"control/CoreRollerShutterCommandRequest.h"
+	"control/CoreResponse.h"
+	"rollershutter/RollerShutterCommandArg.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreRollerShutterInfoRequest.cpp
+	"control/CoreRollerShutterInfoRequest.h"
+	"control/CoreRollerShutterInfoResponse.h"
+	"rollershutter/RollerShutterActuatorType.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreRollerShutterInfoResponse.cpp
+	"control/CoreRollerShutterInfoResponse.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreRollerShutterSettingRequest.cpp
+	"control/CoreRollerShutterSettingRequest.h"
+	"rollershutter/RollerShutterSettingArg.h"
+	"control/CoreResponse.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreRollerShutterStatusRequest.cpp
+	"control/CoreRollerShutterStatusRequest.h"
+	"control/CoreRollerShutterStatusResponse.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreRollerShutterStatusResponse.cpp
+	"control/CoreRollerShutterStatusResponse.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreScenarioCommandMessage.cpp
+	"control/CoreScenarioCommandMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreSetOutdoorTemperatureRequest.cpp
+	"control/CoreSetOutdoorTemperatureRequest.h"
+	"control/CoreTemperatureResponse.h"
+	"sensor/TemperatureArg.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreSetRoomTemperatureRequest.cpp
+	"control/CoreSetRoomTemperatureRequest.h"
+	"control/CoreTemperatureResponse.h"
+	"sensor/TemperatureArg.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreSirenMessage.cpp
+	"control/CoreSirenMessage.h"
+	"security/AlarmProductType.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreTelephoneTransmitterMessage.cpp
+	"control/CoreTelephoneTransmitterMessage.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreTemperatureInfoRequest.cpp
+	"control/CoreTemperatureInfoRequest.h"
+	"control/CoreTemperatureInfoResponse.h"
+	"sensor/Temperature.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreTemperatureInfoResponse.cpp
+	"control/CoreTemperatureInfoResponse.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreTemperatureMessage.cpp
+	"control/CoreTemperatureMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreTemperatureResponse.cpp
+	"control/CoreTemperatureResponse.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreThermicAntiFrostAdjustmentRequest.cpp
+	"control/CoreThermicAntiFrostAdjustmentRequest.h"
+	"control/CoreResponse.h"
+	"hvac/ThermicAntiFrostAdjustmentArg.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreThermicDelayTimeResponse.cpp
+	"control/CoreThermicDelayTimeResponse.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreThermicGetDelayTimeRequest.cpp
+	"control/CoreThermicGetDelayTimeRequest.h"
+	"control/CoreThermicDelayTimeResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreThermicInfoRequest.cpp
+	"control/CoreThermicInfoRequest.h"
+	"control/CoreThermicInfoResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreThermicInfoResponse.cpp
+	"control/CoreThermicInfoResponse.h"
+	"control/ResponseStatus.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreThermicRegulationCommandRequest.cpp
+	"control/CoreThermicRegulationCommandRequest.h"
+	"hvac/ThermicRegulationCommandArg.h"
+	"control/CoreResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreThermicRegulationStatusRequest.cpp
+	"control/CoreThermicRegulationStatusRequest.h"
+	"control/CoreThermicRegulationStatusResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreThermicRegulationStatusResponse.cpp
+	"control/CoreThermicRegulationStatusResponse.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreThermicSetDelayTimeRequest.cpp
+	"control/CoreThermicSetDelayTimeRequest.h"
+	"hvac/ThermicDelayTimeArg.h"
+	"control/CoreResponse.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreThermicSettingRequest.cpp
+	"control/CoreThermicSettingRequest.h"
+	"control/CoreResponse.h"
+	"hvac/ThermicSettingArg.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreThermicSystemCommandRequest.cpp
+	"control/CoreThermicSystemCommandRequest.h"
+	"control/CoreResponse.h"
+	"hvac/ThermicSystemCommandArg.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreThermicSystemStatusRequest.cpp
+	"control/CoreThermicSystemStatusRequest.h"
+	"control/CoreThermicSystemStatusResponse.h"
+	"hvac/ThermicSystemOutput.h"
+	"hvac/ThermicFanSpeed.h"
+	"hvac/ThermicPipeworkSupply.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreThermicSystemStatusResponse.cpp
+	"control/CoreThermicSystemStatusResponse.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreVariationCommandMessage.cpp
+	"control/CoreVariationCommandMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/CoreVariationMessage.cpp
+	"control/CoreVariationMessage.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/DataWay.cpp
+	"control/DataWay.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/DirectCodec.cpp
+	"control/DirectCodec.h"
+	"control/CoreController.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/EndTransactionEvent.cpp
+	"control/EndTransactionEvent.h"
+	"control/CoreRequest.h"
+	"control/CoreResponse.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/Factory.cpp
+	"control/Factory.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/FrameIoEvent.cpp
+	"control/FrameIoEvent.h"
+	"control/PrintableHex.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/MeshCodec.cpp
+	"control/MeshCodec.h"
+	"control/CoreController.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/MessagePriority.cpp
+	"control/MessagePriority.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/MessageReceivedEvent.cpp
+	"control/MessageReceivedEvent.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/NetworkCodec.cpp
+	"control/NetworkCodec.h"
+	"control/CoreController.h"
+	"control/NodeDiscoveredEvent.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/Node.cpp
+	"control/Node.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/NodeArg.cpp
+	"control/NodeArg.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/NodeDiscoveredEvent.cpp
+	"control/NodeDiscoveredEvent.h"
+
+1339076014 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/PrintableHex.cpp
+	"control/PrintableHex.h"
+
+1339076010 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/RadioFrequency.cpp
+	"control/RadioFrequency.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/ResponseStatus.cpp
+	"control/ResponseStatus.h"
+
+1339076012 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/control/Statistic.cpp
+	"control/Statistic.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/HeatingMode.cpp
+	"hvac/HeatingMode.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/HeatingSetting.cpp
+	"hvac/HeatingSetting.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicActuatorType.cpp
+	"hvac/ThermicActuatorType.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicAntiFrostAdjustmentArg.cpp
+	"hvac/ThermicAntiFrostAdjustmentArg.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicDelayTime.cpp
+	"hvac/ThermicDelayTime.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicDelayTimeArg.cpp
+	"hvac/ThermicDelayTimeArg.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicFanMode.cpp
+	"hvac/ThermicFanMode.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicFanSpeed.cpp
+	"hvac/ThermicFanSpeed.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicHeatLevel.cpp
+	"hvac/ThermicHeatLevel.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicPipeworkSupply.cpp
+	"hvac/ThermicPipeworkSupply.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicRegulationCommandArg.cpp
+	"hvac/ThermicRegulationCommandArg.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicRegulationMode.cpp
+	"hvac/ThermicRegulationMode.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicReheatingMode.cpp
+	"hvac/ThermicReheatingMode.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicSettingArg.cpp
+	"hvac/ThermicSettingArg.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicSystemCommandArg.cpp
+	"hvac/ThermicSystemCommandArg.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicSystemMode.cpp
+	"hvac/ThermicSystemMode.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/hvac/ThermicSystemOutput.cpp
+	"hvac/ThermicSystemOutput.h"
+
+1339076036 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/light/LightActuatorType.cpp
+	"light/LightActuatorType.h"
+
+1339076036 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/light/LightColorArg.cpp
+	"light/LightColorArg.h"
+
+1339076036 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/light/LightCommandArg.cpp
+	"light/LightCommandArg.h"
+
+1339076036 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/light/LightSettingArg.cpp
+	"light/LightSettingArg.h"
+
+1339076096 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/metering/CompositeRegisterSelection.cpp
+	"metering/CompositeRegisterSelection.h"
+
+1339076096 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/metering/ElectricityTariff.cpp
+	"metering/ElectricityTariff.h"
+
+1339076096 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/metering/ElectricityTariffOption.cpp
+	"metering/ElectricityTariffOption.h"
+
+1339076096 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/metering/RegisterSelection.cpp
+	"metering/RegisterSelection.h"
+
+1339076096 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/metering/RegisterUnit.cpp
+	"metering/RegisterUnit.h"
+
+1339076096 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/remote/BasicCommand.cpp
+	"remote/BasicCommand.h"
+
+1339076096 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/remote/VariationCommand.cpp
+	"remote/VariationCommand.h"
+
+1339076032 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/requirement.cpp
+	"requirement.h"
+
+1472736231 /media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/requirement.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<string>
+	<vector>
+	<list>
+	<pthread.h>
+	<time.h>
+	<iostream>
+
+1339076098 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/rollershutter/RollerShutterActuatorType.cpp
+	"rollershutter/RollerShutterActuatorType.h"
+
+1339076098 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/rollershutter/RollerShutterCommandArg.cpp
+	"rollershutter/RollerShutterCommandArg.h"
+
+1339076098 source:/media/clariones/LinuxData/ubuntu/codes/cpp/codeblockws/Src4FDTI/rollershutter/RollerShutterSettingArg.cpp
+	"rollershutter/RollerShutterSettingArg.h"
+
